@@ -7,7 +7,7 @@ const Main = () => {
         <MainCase>
             <ContainerCase>
                 <NameCase>
-                    <span>Hi I'm  </span>
+                    <span>Hi, I'm  </span>
                     <h1>YACHNIK MIKHAIL </h1>
                     <p>Dreamer </p>
                 </NameCase>
@@ -43,7 +43,7 @@ const NameCase = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
-  margin: 0 2em;
+  //margin: 0 2em;
 `
 const PhotoCase = styled.div`
   width: 70vh;

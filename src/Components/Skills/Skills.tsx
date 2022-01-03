@@ -8,9 +8,9 @@ const Skills = () => {
             <ContainerCase>
                 <h2>Skills</h2>
                 <BlockCase>
-                    <Skill1/>
-                    <Skill1/>
-                    <Skill1/>
+                    <Skill1 title={'js'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipiscialias architecto cupiditate dolorem, eligendi eum ex fugit illo impedit ipsamiste molestiae nisi pariatur qui repellendus sequi tempora, totam vitae!'}/>
+                    <Skill1 title={'redux'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipiscialias architecto cupiditate dolorem, eligendi eum ex fugit illo impedit ipsamiste molestiae nisi pariatur qui repellendus sequi tempora, totam vitae!'}/>
+                    <Skill1 title={'react'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipiscialias architecto cupiditate dolorem, eligendi eum ex fugit illo impedit ipsamiste molestiae nisi pariatur qui repellendus sequi tempora, totam vitae!'}/>
                 </BlockCase>
             </ContainerCase>
         </SkillsCase>
@@ -34,8 +34,13 @@ const ContainerCase = styled.div`
   align-items: center;
   height: 100vh;
   width: 80%;
+ 
 `
 const BlockCase = styled.div`
   border: 3px black dashed;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: auto;
 `

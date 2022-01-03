@@ -14,7 +14,7 @@ export default Header;
 
 const HeaderCase=styled.div`
   height: 10vh;
-  background-color: rgba(8, 168, 183, 0.72);
+  background-color: rgba(34, 39, 94, 0.7);
   display: flex;
   justify-content: space-around;
   align-items: center;

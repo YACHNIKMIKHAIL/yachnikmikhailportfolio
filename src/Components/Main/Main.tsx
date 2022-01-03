@@ -9,10 +9,10 @@ const Main = () => {
                 <NameCase>
                     <span>Hi, I'm  </span>
                     <h1>YACHNIK MIKHAIL </h1>
-                    <p>Dreamer </p>
+                    <p>Dreamer, father, fixedGear rider </p>
                 </NameCase>
                 <PhotoCase>
-                    <img src={img} alt="blabla" style={{maxHeight: '38vh'}}/>
+                    <img src={img} alt="blabla" style={{maxHeight: '38vh',borderRadius:'10px'}}/>
                 </PhotoCase>
             </ContainerCase>
         </MainCase>
@@ -23,7 +23,7 @@ export default Main;
 
 const MainCase = styled.div`
   height: 100vh;
-  background-color: rgba(61, 203, 215, 0.95);
+  //background-color: rgba(61, 203, 215, 0.12);
   display: flex;
   justify-content: center;
 `
@@ -36,19 +36,23 @@ const ContainerCase = styled.div`
   flex-wrap: wrap;
 `
 const NameCase = styled.div`
-  width: 70vh;
+  width: 60vh;
   height: 40vh;
-  background-color: rgba(22, 74, 79, 0.95);
+  background-color: rgba(34, 39, 94, 0.7);
+  border-radius: 10px;
+  padding: 0.5em;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
-  //margin: 0 2em;
+  color: sandybrown;
 `
 const PhotoCase = styled.div`
-  width: 70vh;
+  width: 60vh;
   height: 40vh;
-  background-color: rgba(14, 165, 178, 0.68);
+  background-color: rgba(34, 39, 94, 0.7);
+  border-radius: 10px;
+  padding: 0.5em;
   display: flex;
   justify-content: space-around;
   align-items: center;

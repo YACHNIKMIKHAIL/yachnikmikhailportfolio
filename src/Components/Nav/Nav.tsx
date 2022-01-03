@@ -4,11 +4,11 @@ import styled from "styled-components";
 const Nav = () => {
     return (
         <NavCase>
-            <a href="#">Main</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Works</a>
-            <a href="#">Contacts</a>
+            <a href="#" style={{color:'whitesmoke'}}>Main</a>
+            <a href="#" style={{color:'whitesmoke'}}>Skills</a>
+            <a href="#" style={{color:'whitesmoke'}}>Projects</a>
+            <a href="#" style={{color:'whitesmoke'}}>Works</a>
+            <a href="#" style={{color:'whitesmoke'}}>Contacts</a>
         </NavCase>
     );
 };
@@ -16,9 +16,9 @@ const Nav = () => {
 export default Nav;
 
 const NavCase=styled.div`
-  border: 1px solid #ff9103;
-  background-color: rgba(8, 168, 183, 0.72);
+  //background-color: rgba(34, 39, 94, 0.5);
   width: 300px;
   display: flex;
   justify-content: space-between;
+  color: white;
 `

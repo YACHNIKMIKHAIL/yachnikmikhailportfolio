@@ -4,12 +4,13 @@ import styled from "styled-components";
 type Skill1Type = {
     title: string
     description:string
+    image:string
 }
 const Skill1 = (props: Skill1Type) => {
     return (
         <SklCase>
-            <IconCase></IconCase>
-            <h3>{props.title}</h3>
+            <IconCase><img src={props.image} alt="logo" style={{height:'60px',width:'60px'}}/></IconCase>
+            <h3 style={{fontWeight:'bold'}}>{props.title}</h3>
             <DescriptionCase>
                 {props.description}
             </DescriptionCase>
@@ -22,12 +23,15 @@ export default Skill1;
 const SklCase = styled.div`
   width: 250px;
   min-height: 300px;
-  background-color: sandybrown;
+  //background-color: rgba(69, 123, 148,0.7);
+  background-color: rgba(34, 39, 94, 0.5);
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   margin: 5px;
+  color: whitesmoke;
 `
 const IconCase = styled.div`
   width: 60px;
@@ -35,7 +39,6 @@ const IconCase = styled.div`
   background-color: black;
 `
 const DescriptionCase = styled.div`
-  width: 250px;
-  background-color: sandybrown;
+  width: 80%;
   text-align: center;
 `

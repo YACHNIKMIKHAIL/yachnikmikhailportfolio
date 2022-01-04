@@ -37,7 +37,7 @@ const MainCase = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
+  background-color: rgba(34, 39, 94, 0.3);
 `
 const ContainerCase = styled.div`
   width: 80%;
@@ -48,6 +48,7 @@ const ContainerCase = styled.div`
   justify-content: space-between;
   flex-wrap: nowrap;
   border: yellow 2px solid;
+  background-color: rgba(34, 39, 94, 0.6);
 `
 const ContactsCase = styled.div`
   width: 60vh;

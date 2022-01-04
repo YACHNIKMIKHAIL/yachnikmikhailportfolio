@@ -6,6 +6,7 @@ import Projects from "./Components/MyProjects/Projects";
 import styled from "styled-components";
 import Freelance from "./Components/Freelance/Freelance";
 import Contacts from "./Components/Contacts/Contacts";
+import Footer from "./Components/Footer/Footer";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Projects/>
             <Freelance/>
             <Contacts/>
+            <Footer/>
         </AppCase>
     );
 }

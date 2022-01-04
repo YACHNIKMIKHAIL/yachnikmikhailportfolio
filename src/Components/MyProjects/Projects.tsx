@@ -21,7 +21,7 @@ export default Projects;
 
 const ProjectsCase = styled.div`
   height: 100vh;
-  background-color: rgba(34, 39, 94, 0.5);
+  background-color: rgba(34, 39, 94, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;

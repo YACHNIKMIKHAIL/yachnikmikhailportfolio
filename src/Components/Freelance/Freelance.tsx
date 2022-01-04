@@ -21,7 +21,7 @@ export default Freelance;
 
 const FreelanceCase = styled.div`
   height: 20vh;
-  background-color: rgba(200, 215, 61, 0.5);
+  background-color: rgba(34, 39, 94, 0.5);
   display: flex;
   justify-content: center;
 `
@@ -32,7 +32,6 @@ const ContainerCase = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  border: 3px red solid;
 `
 const TextCase = styled.div`
   width: 67vh;

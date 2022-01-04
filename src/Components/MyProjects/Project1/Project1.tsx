@@ -25,7 +25,7 @@ export default Project1;
 
 const PrjctCase = styled.div`
   width: 450px;
-  min-height: 500px;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

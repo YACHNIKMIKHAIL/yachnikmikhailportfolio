@@ -22,7 +22,7 @@ export default Skill1;
 
 const SklCase = styled.div`
   width: 250px;
-  min-height: 300px;
+  min-height: 200px;
   //background-color: rgba(69, 123, 148,0.7);
   background-color: rgba(34, 39, 94, 0.5);
   border-radius: 10px;

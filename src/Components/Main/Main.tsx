@@ -9,10 +9,12 @@ const Main = () => {
                 <NameCase>
                     <span>Hi, I'm  </span>
                     <h1>YACHNIK MIKHAIL </h1>
-                    <p>Dreamer, father, fixedGear rider </p>
+                    <p> <span style={{fontSize:'16px',color:'white'}}>Dreamer ,</span>
+                        <span style={{fontSize:'20px',color:'sandybrown'}}>father ,</span>
+                        <span style={{fontSize:'12px',color:'fuchsia'}}>fixedGear rider.</span> </p>
                 </NameCase>
                 <PhotoCase>
-                    <img src={img} alt="blabla" style={{maxHeight: '38vh',borderRadius:'10px'}}/>
+                    <img src={img} alt="blabla" style={{minWidth:'20%',borderRadius :'10px'}}/>
                 </PhotoCase>
             </ContainerCase>
         </MainCase>
@@ -23,7 +25,6 @@ export default Main;
 
 const MainCase = styled.div`
   height: 100vh;
-  //background-color: rgba(61, 203, 215, 0.12);
   display: flex;
   justify-content: center;
 `
@@ -57,4 +58,5 @@ const PhotoCase = styled.div`
   justify-content: space-around;
   align-items: center;
   margin: 0 2em;
+  flex-wrap: nowrap;
 `

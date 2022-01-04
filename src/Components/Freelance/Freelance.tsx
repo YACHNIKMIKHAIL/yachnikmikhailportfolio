@@ -21,7 +21,6 @@ export default Freelance;
 
 const FreelanceCase = styled.div`
   height: 20vh;
-  background-color: rgba(34, 39, 94, 0.5);
   display: flex;
   justify-content: center;
 `
@@ -36,19 +35,19 @@ const ContainerCase = styled.div`
 const TextCase = styled.div`
   width: 67vh;
   height: 20%;
-  background-color: rgba(34, 39, 94, 0.7);
+  background-color: rgba(244, 164, 96, 0.85);
   border-radius: 10px;
   padding: 0.5em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  color: sandybrown;
+  color: rgba(34, 39, 94, 0.91);
+  font-weight: bold;
 `
 const ButtonCase = styled.div`
   width: 67vh;
   height: 40%;
-  background-color: rgba(34, 39, 94, 0.7);
   border-radius: 10px;
   padding: 0.5em;
   display: flex;

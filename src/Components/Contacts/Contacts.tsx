@@ -6,20 +6,19 @@ const Contacts = () => {
     return (
         <MainCase>
             <ContainerCase>
-                My contacts
+                <span style={{margin:'20px',color:'azure'}}>My contacts</span>
                 <ContactsCase>
-                    {/*<form action="submit">*/}
-                        <>
-                            <input type="text"/>
-                        </>
-                        <>
-                            <input type="text"/>
-                        </>
-                        <>
+                    <form action=""
+                          style={{width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+                        #1
+                        <input type="text"/>
+                        #2
+                        <input type="text"/>
+                        #3
                         <textarea name="" id="">
                         </textarea>
-                        </>
-                    {/*</form>*/}
+
+                    </form>
                 </ContactsCase>
                 <ButtonCase>
                     <button>Send</button>
@@ -47,13 +46,11 @@ const ContainerCase = styled.div`
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
-  border: yellow 2px solid;
+  border: solid 4px sandybrown;
+  border-radius: 10px;
   background-color: rgba(34, 39, 94, 0.6);
 `
 const ContactsCase = styled.div`
-  width: 60vh;
-  height: 40vh;
-  background-color: rgba(34, 39, 94, 0.7);
   border-radius: 10px;
   padding: 0.5em;
   display: flex;
@@ -61,12 +58,10 @@ const ContactsCase = styled.div`
   align-items: center;
   justify-content: space-between;
   color: sandybrown;
-  border: solid 2px red;
+  
 `
 const ButtonCase = styled.div`
-  width: 60vh;
   height: 20%;
-  background-color: rgba(34, 39, 94, 0.7);
   border-radius: 10px;
   padding: 0.5em;
   display: flex;

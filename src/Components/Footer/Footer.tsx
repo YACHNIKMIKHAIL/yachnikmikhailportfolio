@@ -28,10 +28,9 @@ const Footer = () => {
 export default Footer;
 
 const FooterCase = styled.div`
-  height: 14vh;
   display: flex;
   justify-content: center;
-  background-color: rgba(34, 39, 94, 0.1);
+  background-color: rgba(239, 85, 13, 0.1);
 `
 const ContainerCase = styled.div`
   width: 80%;
@@ -40,12 +39,11 @@ const ContainerCase = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  border: 3px red solid;
+  color: sandybrown;
 `
 const IconsCase = styled.div`
   width: 67vh;
   height: 40%;
-  background-color: rgba(34, 39, 94, 0.7);
   border-radius: 10px;
   padding: 0.5em;
   display: flex;

@@ -22,8 +22,7 @@ export default Skill1;
 
 const SklCase = styled.div`
   width: 250px;
-  min-height: 200px;
-  //background-color: rgba(69, 123, 148,0.7);
+  min-height: auto;
   background-color: rgba(34, 39, 94, 0.5);
   border-radius: 10px;
   display: flex;
@@ -32,6 +31,8 @@ const SklCase = styled.div`
   align-items: center;
   margin: 5px;
   color: whitesmoke;
+  padding: 7px;
+  box-sizing:border-box;
 `
 const IconCase = styled.div`
   width: 60px;

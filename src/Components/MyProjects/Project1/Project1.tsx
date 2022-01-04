@@ -12,7 +12,7 @@ const Project1 = (props: Project1Type) => {
             <button>Show</button>
             </ImageCase>
             <ProjectTitleCase>
-                {props.title}
+                <h4>{props.title}</h4>
             </ProjectTitleCase>
             <DescriptionCase>
                 {props.description}
@@ -24,8 +24,7 @@ const Project1 = (props: Project1Type) => {
 export default Project1;
 
 const PrjctCase = styled.div`
-  width: 450px;
-  min-height: 300px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -33,10 +32,11 @@ const PrjctCase = styled.div`
   margin: 5px;
   background-color: rgba(34, 39, 94, 0.8);
   border-radius: 10px;
+  border: 2px whitesmoke solid;
 `
 const ImageCase = styled.div`
   width: 100%;
-  height: 60%;
+  height: 200px;
   background-color: black;
   display: flex;
   justify-content: center;
@@ -50,15 +50,13 @@ const ProjectTitleCase = styled.div`
   justify-content: center;
   align-items: center;
   color: fuchsia;
-  font-size: 40px;
+  font-size: 20px;
 `
 const DescriptionCase = styled.div`
-  min-width: 60%;
-  height: 25%;
+  min-height: auto;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: auto;
   color: sandybrown;
 `

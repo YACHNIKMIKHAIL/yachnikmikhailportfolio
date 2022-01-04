@@ -8,8 +8,8 @@ const Projects = () => {
             <ContainerCase>
                 <h2 style={{color:'#00d0fd'}}>My Super Projects</h2>
                 <BlockCase>
-                    <Project1 title={'pr1'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipiscialias architecto cupiditate dolorem, eligendi eum ex fugit illo impedit ipsamiste molestiae nisi pariatur qui repellendus sequi tempora, totam vitae!'}/>
-                    <Project1 title={'pr2'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipiscialias architecto cupiditate dolorem, eligendi eum ex fugit illo impedit ipsamiste molestiae nisi pariatur qui repellendus sequi tempora, totam vitae!'}/>
+                    <Project1 title={'project 1'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipiscialias architecto cupiditate dolorem, eligendi eum ex fugit illo impedit ipsamiste molestiae nisi pariatur qui repellendus sequi tempora, totam vitae!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipiscialias architecto cupiditate dolorem, eligendi eum ex fugit illo impedit ipsamiste molestiae nisi pariatur qui repellendus sequi tempora, totam vitae!'}/>
+                    <Project1 title={'project 2'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipiscialias architecto cupiditate dolorem, eligendi eum ex fugit illo impedit ipsamiste molestiae nisi pariatur qui repellendus sequi tempora, totam vitae!'}/>
 
                 </BlockCase>
             </ContainerCase>
@@ -25,6 +25,7 @@ const ProjectsCase = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 `
 const ContainerCase = styled.div`
   display: flex;
@@ -36,9 +37,9 @@ const ContainerCase = styled.div`
  
 `
 const BlockCase = styled.div`
-  width: 100%;
+  
+  min-height: auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  overflow: auto;
 `

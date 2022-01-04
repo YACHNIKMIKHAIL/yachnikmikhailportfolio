@@ -24,13 +24,12 @@ export default Skills;
 
 const SkillsCase = styled.div`
   height: 100vh;
-  background-color: rgba(34, 39, 94, 0.2);
+  background-color: rgba(34, 39, 94, 0.45);
   display: flex;
   justify-content: center;
   align-items: center;
 `
 const ContainerCase = styled.div`
-  //background-color: rgba(69, 123, 148,0.7);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -42,6 +41,7 @@ const ContainerCase = styled.div`
 `
 const BlockCase = styled.div`
   width: 100%;
+  min-height: auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;

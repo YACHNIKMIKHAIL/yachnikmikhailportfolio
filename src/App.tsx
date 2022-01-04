@@ -4,6 +4,8 @@ import Main from "./Components/Main/Main";
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/MyProjects/Projects";
 import styled from "styled-components";
+import Freelance from "./Components/Freelance/Freelance";
+import Contacts from "./Components/Contacts/Contacts";
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
             <Main/>
             <Skills/>
             <Projects/>
+            <Freelance/>
+            <Contacts/>
         </AppCase>
     );
 }

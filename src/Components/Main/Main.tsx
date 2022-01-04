@@ -9,9 +9,7 @@ const Main = () => {
                 <NameCase>
                     <span>Hi, I'm  </span>
                     <h1>YACHNIK MIKHAIL </h1>
-                    <p> <span style={{fontSize:'16px',color:'white'}}>Dreamer ,</span>
-                        <span style={{fontSize:'20px',color:'sandybrown'}}>father ,</span>
-                        <span style={{fontSize:'12px',color:'fuchsia'}}>fixedGear rider.</span> </p>
+                    <p>Dreamer, father, fixedGear rider.</p>
                 </NameCase>
                 <PhotoCase>
                     <img src={img} alt="blabla" style={{minWidth:'20%',borderRadius :'10px'}}/>

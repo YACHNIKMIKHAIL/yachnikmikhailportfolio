@@ -29,6 +29,8 @@ export default Footer;
 
 const FooterCase = styled.div`
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   background-color: rgba(239, 85, 13, 0.1);
 `

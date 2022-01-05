@@ -39,7 +39,7 @@ const ContainerCase = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 80%;
+  width: 90%;
 
 `
 const BlockCase = styled.div`

@@ -42,4 +42,5 @@ const IconCase = styled.div`
 const DescriptionCase = styled.div`
   width: 80%;
   text-align: center;
+  word-wrap: break-word;
 `

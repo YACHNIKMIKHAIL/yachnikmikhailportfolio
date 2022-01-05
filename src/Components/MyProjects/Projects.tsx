@@ -40,7 +40,6 @@ const ContainerCase = styled.div`
 const BlockCase = styled.div`
 max-height: content-box;
   width: 80%;
-  border: 2px yellow solid;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;

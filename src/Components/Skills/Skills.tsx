@@ -9,11 +9,15 @@ const Skills = () => {
     return (
         <SkillsCase>
             <ContainerCase>
-                <h2 style={{color:'fuchsia',fontWeight:'bold',fontSize:'30px'}}>Skills</h2>
+                <h2 style={{color: 'fuchsia', fontWeight: 'bold', fontSize: '30px'}}>Skills</h2>
                 <BlockCase>
                     <Skill1 title={'JS'} image={logo1} description={'Pain && Tears. More pain && more tears...'}/>
                     <Skill1 title={'REACT'} image={logo2} description={'Endless Hapinness'}/>
                     <Skill1 title={'REDUX'} image={logo3} description={'great discoveries await us'}/>
+                    <Skill1 title={'JS'} image={logo1}
+                            description={'Pain && Tears. More pain && more tears. More pain && more tears. More pain && more tears...'}/>
+                    <Skill1 title={'REACT'} image={logo2} description={'Endless Haphapihapihapihapihapinness'}/>
+                    <Skill1 title={'REDUX'} image={logo3} description={'great discoveries awaaaaaaaait us'}/>
                 </BlockCase>
             </ContainerCase>
         </SkillsCase>
@@ -23,7 +27,7 @@ const Skills = () => {
 export default Skills;
 
 const SkillsCase = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgba(34, 39, 94, 0.45);
   display: flex;
   justify-content: center;
@@ -35,15 +39,12 @@ const ContainerCase = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 100vh;
   width: 80%;
- 
+
 `
 const BlockCase = styled.div`
   width: 100%;
-  min-height: auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  overflow: auto;
 `

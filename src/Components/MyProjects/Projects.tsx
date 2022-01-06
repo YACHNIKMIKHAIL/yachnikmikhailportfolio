@@ -11,16 +11,16 @@ const Projects = () => {
             <ContainerCase>
                 <h2 style={{color: '#00d0fd'}}>My Super Projects</h2>
                 <BlockCase>
-                    <Project1 title={'project 1'}
-                              description={'Space todolist'}
+                    <Project1 title={'Space todolist'}
+                              description={`Tap on image to discover 'Space todolist' my favorit project.`}
                               image={spaceImg2}
                               link={'https://YACHNIKMIKHAIL.github.io/SpaceTodolist'}/>
-                    <Project1 title={'project 2'}
-                              description={'Samurai todolist'}
+                    <Project1 title={'Samurai todo list'}
+                              description={`Tap on image to discover 'Samurai todo list'  I fought whith my fear in this project.`}
                               image={spaceImg1}
                               link={'https://YACHNIKMIKHAIL.github.io/SamuraiTodolist'}/>
-                    <Project1 title={'project 3'}
-                              description={'Mountain todolist'}
+                    <Project1 title={'Mountain todolist'}
+                              description={`Working at 'Mountaint todolist', I can sau that it's so funny, building projects. Tap on image to discover)`}
                               image={spaceImg}
                               link={'https://YACHNIKMIKHAIL.github.io/mountainTodolist'}/>
                 </BlockCase>

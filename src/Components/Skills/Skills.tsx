@@ -7,7 +7,7 @@ import logo3 from './../Images/redux-react-javascript-freecodecamp-npm-png-favpn
 
 const Skills = () => {
     return (
-        <SkillsCase>
+        <SkillsCase id={'skills'}>
             <ContainerCase>
                 <h2 style={{color: 'fuchsia', fontWeight: 'bold', fontSize: '30px'}}>Skills</h2>
                 <BlockCase>

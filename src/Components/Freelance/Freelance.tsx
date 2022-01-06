@@ -4,7 +4,7 @@ import img from './../Images/MRC1786.jpg'
 
 const Freelance = () => {
     return (
-        <FreelanceCase>
+        <FreelanceCase id={'works'}>
             <ContainerCase>
                 <TextCase>
                     <span>I can freelance ) </span>

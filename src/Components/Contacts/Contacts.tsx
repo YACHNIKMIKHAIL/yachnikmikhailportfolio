@@ -4,7 +4,7 @@ import img from './../Images/MRC1786.jpg'
 
 const Contacts = () => {
     return (
-        <MainCase>
+        <MainCase id={'contacts'}>
             <ContainerCase>
                 <span style={{margin:'20px',color:'azure'}}>My contacts</span>
                 <ContactsCase>

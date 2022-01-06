@@ -7,7 +7,7 @@ import spaceImg2 from './../Images/Projects/Screenshot 2022-01-05 at 21.20.19.pn
 
 const Projects = () => {
     return (
-        <ProjectsCase>
+        <ProjectsCase id={'projects'}>
             <ContainerCase>
                 <h2 style={{color: '#00d0fd'}}>My Super Projects</h2>
                 <BlockCase>

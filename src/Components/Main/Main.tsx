@@ -4,7 +4,7 @@ import img from './../Images/MRC1786.jpg'
 
 const Main = () => {
     return (
-        <MainCase>
+        <MainCase id={'main'}>
             <ContainerCase>
                 <NameCase>
                     <span>Hi, I'm  </span>

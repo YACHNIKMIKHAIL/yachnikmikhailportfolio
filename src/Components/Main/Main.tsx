@@ -12,7 +12,9 @@ const Main = () => {
                     <p>Dreamer, father, fixedGear rider.</p>
                 </NameCase>
                 <PhotoCase>
-                    <img src={img} alt="blabla" style={{width:'100%',borderRadius :'10px'}}/>
+                    <img src={img} alt="blabla"
+                         style={{width:'100%',borderRadius :'10px'}}
+                    />
                 </PhotoCase>
             </ContainerCase>
         </MainCase>
@@ -49,9 +51,10 @@ const NameCase = styled.div`
 const PhotoCase = styled.div`
   max-width: 60vh;
   min-height: 205px;
-  background-color: rgba(34, 39, 94, 0.7);
+  //background-color: rgba(34, 39, 94, 0.7);
   border-radius: 10px;
-  padding: 0.5em;
+  // background: url(${img})no-repeat center/cover;
+  //padding: 0.5em;
   display: flex;
   justify-content: space-around;
   align-items: center;

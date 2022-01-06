@@ -11,7 +11,7 @@ const Footer = () => {
         <FooterCase>
             <ContainerCase>
 
-                <span>YACHNIK MIKHAIL  </span>
+                {/*<span>YACHNIK MIKHAIL  </span>*/}
 
                 <IconsCase>
                     <a href="https://t.me/krblnj">
@@ -38,10 +38,16 @@ export default Footer;
 
 const FooterCase = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   background-color: rgba(239, 85, 13, 0.1);
+  width: 100%;
+  height: 5vh;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
 `
 const ContainerCase = styled.div`
   width: 80%;

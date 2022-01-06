@@ -13,9 +13,11 @@ const Header = () => {
 export default Header;
 
 const HeaderCase=styled.div`
-  height: 10vh;
+  height: 5vh;
   background-color: rgba(34, 39, 94, 0.7);
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  width: 100%;
 `

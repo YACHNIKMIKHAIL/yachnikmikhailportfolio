@@ -23,6 +23,7 @@ const FreelanceCase = styled.div`
   height: 20vh;
   display: flex;
   justify-content: center;
+  padding: 3.5em 0 0 0;
 `
 const ContainerCase = styled.div`
   width: 80%;

@@ -7,29 +7,33 @@ import styled from "styled-components";
 import Freelance from "./Components/Freelance/Freelance";
 import Contacts from "./Components/Contacts/Contacts";
 import Footer from "./Components/Footer/Footer";
-import { Routes } from 'react-router-dom';
-import {Route} from  "react-router-dom";
-
+import {Routes} from 'react-router-dom';
+import {Route} from "react-router-dom";
 
 
 function App() {
     return (
-        <AppCase>
+
+            <AppCase>
             <Header/>
-            {/*<Routes>*/}
+
+                {/*<Routes>*/}
                 {/*<Route path={'/main'} element={<Main/>}/>*/}
                 {/*<Route path={'/skills'} element={<Skills/>}/>*/}
                 {/*<Route path={'/projects'} element={<Projects/>}/>*/}
                 {/*<Route path={'/freelance'} element={<Freelance/>}/>*/}
                 {/*<Route path={'/contacts'} element={<Contacts/>}/>*/}
-                 <Main/>
-                 <Skills/>
-                 <Projects/>
-                 <Freelance/>
-                 <Contacts/>
-            {/*</Routes>*/}
+                <Main/>
+                <Skills/>
+                <Projects/>
+                <Freelance/>
+                <Contacts/>
+
+                {/*</Routes>*/}
+
             <Footer/>
         </AppCase>
+
     );
 }
 

@@ -32,6 +32,7 @@ const SkillsCase = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1em 0 0 0;
 `
 const ContainerCase = styled.div`
   border-radius: 10px;

@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from "styled-components";
-import img from './../Images/MRC1786.jpg'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -14,16 +13,16 @@ const Footer = () => {
                 {/*<span>YACHNIK MIKHAIL  </span>*/}
 
                 <IconsCase>
-                    <a href="https://t.me/krblnj">
+                    <a href="https://t.me/krblnj" target="_blank">
                         <TelegramIcon style={{width: '30px', height: '30px', color: 'whitesmoke'}}/>
                     </a>
-                    <a href="https://www.instagram.com/krblnj/">
+                    <a href="https://www.instagram.com/krblnj/" target="_blank">
                         <InstagramIcon style={{width: '30px', height: '30px', color: 'whitesmoke'}}/>
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/mikhail-yachnik-91277922b/" target="_blank">
                         <LinkedInIcon style={{width: '30px', height: '30px', color: 'whitesmoke'}}/>
                     </a>
-                    <a href="https://github.com/YACHNIKMIKHAIL">
+                    <a href="https://github.com/YACHNIKMIKHAIL" target="_blank">
                         <GitHubIcon style={{width: '30px', height: '30px', color: 'whitesmoke'}}/>
                     </a>
 

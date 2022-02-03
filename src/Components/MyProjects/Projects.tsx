@@ -4,6 +4,8 @@ import Project1 from "./Project1/Project1";
 import spaceImg from './../Images/Projects/Screenshot 2022-01-05 at 21.14.16.png'
 import spaceImg1 from './../Images/Projects/Screenshot 2022-01-05 at 21.16.48.png'
 import spaceImg2 from './../Images/Projects/Screenshot 2022-01-05 at 21.20.19.png'
+import spaceImg3 from './../Images/Projects/Screenshot 2022-01-10 at 14.50.59.png'
+import spaceImg4 from './../Images/Projects/Screenshot 2022-01-20 at 13.13.35.png'
 
 const Projects = () => {
     return (
@@ -23,6 +25,14 @@ const Projects = () => {
                               description={`Working at 'Mountaint todolist', I can sau that it's so funny, building projects. Tap on image to discover)`}
                               image={spaceImg}
                               link={'https://YACHNIKMIKHAIL.github.io/mountainTodolist'}/>
+                    <Project1 title={'Counter'}
+                              description={`My second counter - Space Counter) Disabled buttons, red errors, all as you would like!`}
+                              image={spaceImg3}
+                              link={'https://YACHNIKMIKHAIL.github.io/CounterVol2'}/>
+                    <Project1 title={'AviaTickeds'}
+                              description={`Вёстка- отстой, логика пушка!`}
+                              image={spaceImg4}
+                              link={'https://YACHNIKMIKHAIL.github.io/Aviasales-'}/>
                 </BlockCase>
             </ContainerCase>
         </ProjectsCase>

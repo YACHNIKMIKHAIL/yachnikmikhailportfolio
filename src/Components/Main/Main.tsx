@@ -35,6 +35,11 @@ const ContainerCase = styled.div`
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  //font-family: 'Shizuru', cursive;
+  
+  //font-family: 'Quintessential', cursive;
+  //font-family: 'Syne Tactile', cursive;
+  font-family: 'Indie Flower';
 `
 const NameCase = styled.div`
   max-width: 60vh;

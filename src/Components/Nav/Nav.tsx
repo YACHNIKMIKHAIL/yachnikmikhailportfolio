@@ -38,4 +38,5 @@ const NavCase = styled.div`
   display: flex;
   justify-content: space-between;
   color: white;
+  font-family: 'Indie Flower';
 `

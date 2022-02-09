@@ -6,12 +6,14 @@ import spaceImg1 from './../Images/Projects/Screenshot 2022-01-05 at 21.16.48.pn
 import spaceImg2 from './../Images/Projects/Screenshot 2022-01-05 at 21.20.19.png'
 import spaceImg3 from './../Images/Projects/Screenshot 2022-01-10 at 14.50.59.png'
 import spaceImg4 from './../Images/Projects/Screenshot 2022-01-20 at 13.13.35.png'
+import spaceImg5 from './../Images/Projects/Screenshot 2022-02-09 at 11.19.21.png'
+import Head from "../Head/Head";
 
 const Projects = () => {
     return (
         <ProjectsCase id={'projects'}>
             <ContainerCase>
-                <h2 style={{color: '#00d0fd'}}>My Super Projects</h2>
+               <Head title={'My super projects'} color={'#00d0fd'}/>
                 <BlockCase>
                     <Project1 title={'Space todolist'}
                               description={`Tap on image to discover 'Space todolist' my favorit project.`}
@@ -33,6 +35,10 @@ const Projects = () => {
                               description={`Вёстка- отстой, логика пушка!`}
                               image={spaceImg4}
                               link={'https://YACHNIKMIKHAIL.github.io/Aviasales-'}/>
+                    <Project1 title={'SeaTodolist'}
+                              description={`My all new wednesday todolist with redux-thunk pushka-raketa`}
+                              image={spaceImg5}
+                              link={'https://YACHNIKMIKHAIL.github.io/SeaTodolist'}/>
                 </BlockCase>
             </ContainerCase>
         </ProjectsCase>
@@ -52,7 +58,7 @@ const ProjectsCase = styled.div`
 const ContainerCase = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   //min-height: 100vh;
   width: 100%;

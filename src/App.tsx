@@ -43,4 +43,5 @@ const AppCase = styled.div`
   background: url("https://c4.wallpaperflare.com/wallpaper/542/50/545/simple-background-blue-simple-minimalism-wallpaper-preview.jpg") no-repeat center/cover;
   overflow: auto;
   height: 100vh;
+  font-family: 'Indie Flower';
 `

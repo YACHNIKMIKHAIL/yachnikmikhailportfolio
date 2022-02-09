@@ -7,7 +7,7 @@ const Freelance = () => {
         <FreelanceCase id={'works'}>
             <ContainerCase>
                 <TextCase>
-                    <span>I can freelance ) </span>
+                    <span>I am available for Freelance ) </span>
                 </TextCase>
                 <ButtonCase>
                     <button>Hire me</button>

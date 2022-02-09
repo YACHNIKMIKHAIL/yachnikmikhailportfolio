@@ -6,7 +6,7 @@ const Contacts = () => {
     return (
         <MainCase id={'contacts'}>
             <ContainerCase>
-                <span style={{margin:'20px',color:'azure'}}>My contacts</span>
+                <span style={{margin: '20px', color: 'azure'}}>My contacts</span>
                 <ContactsCase>
                     <form action=""
                           style={{width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
@@ -21,7 +21,7 @@ const Contacts = () => {
                     </form>
                 </ContactsCase>
                 <ButtonCase>
-                    <button>Send</button>
+                    <button type="submit">Send</button>
                 </ButtonCase>
             </ContainerCase>
         </MainCase>
@@ -31,24 +31,21 @@ const Contacts = () => {
 export default Contacts;
 
 const MainCase = styled.div`
-  height: 100vh;
-  //background-color: rgba(61, 203, 215, 0.12);
+  height: 45vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   background-color: rgba(34, 39, 94, 0.3);
 `
 const ContainerCase = styled.div`
   width: 80%;
-  height: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
-  border: solid 4px sandybrown;
   border-radius: 10px;
-  background-color: rgba(34, 39, 94, 0.6);
 `
 const ContactsCase = styled.div`
   border-radius: 10px;
@@ -58,7 +55,9 @@ const ContactsCase = styled.div`
   align-items: center;
   justify-content: space-between;
   color: sandybrown;
-  
+  //border: solid 4px sandybrown;
+  height: 80%;
+  width: 90%;
 `
 const ButtonCase = styled.div`
   height: 20%;

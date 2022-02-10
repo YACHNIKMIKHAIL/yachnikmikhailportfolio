@@ -7,10 +7,19 @@ const Freelance = () => {
         <FreelanceCase id={'works'}>
             <ContainerCase>
                 <TextCase>
-                    <span>I am available for Freelance ) </span>
+                    <span style={{textAlign: 'center'}}>I am available for Freelance )</span>
                 </TextCase>
                 <ButtonCase>
-                    <button>Hire me</button>
+                    <button style={{
+                        backgroundColor: 'hotpink',
+                        border: 'none',
+                        color: 'white',
+                        height: '40px',
+                        borderRadius: '10px',
+                        fontFamily: 'Indie Flower',
+                        fontWeight:'bold'
+                    }}>Hire me
+                    </button>
                 </ButtonCase>
             </ContainerCase>
         </FreelanceCase>
@@ -36,15 +45,17 @@ const ContainerCase = styled.div`
 const TextCase = styled.div`
   width: 67vh;
   height: 20%;
-  background-color: rgba(244, 164, 96, 0.85);
+  //background-color: rgba(255, 105, 180, 0.3);
   border-radius: 10px;
   padding: 0.5em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  color: rgba(34, 39, 94, 0.91);
+  color: sandybrown;
+  //color: rgba(34, 39, 94, 0.91);
   font-weight: bold;
+  font-size: 30px;
 `
 const ButtonCase = styled.div`
   width: 67vh;

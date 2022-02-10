@@ -11,7 +11,9 @@ const Project1 = (props: Project1Type) => {
     return (
         <PrjctCase>
             <ImageCase style={{borderRadius: '10px'}}>
-                <a href={props.link} target="_blank"><img src={props.image} alt="" style={{width: '100%', borderRadius: '10px'}}/></a>
+                <a href={props.link} target="_blank">
+                    <img src={props.image} alt=""
+                         style={{width: '100%', borderRadius: '10px'}}/></a>
             </ImageCase>
             <ProjectTitleCase>
                 <h4>{props.title}</h4>
@@ -29,13 +31,12 @@ const PrjctCase = styled.div`
   width: 280px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   margin: 5px;
   background-color: rgba(34, 39, 94, 0.8);
   border-radius: 10px;
-  //border: 2px whitesmoke solid;
-  padding: 0 0 2em 0 ;
+  //border: 2px yellow solid;
 `
 const ImageCase = styled.div`
   width: 100%;
@@ -56,11 +57,11 @@ const ProjectTitleCase = styled.div`
   font-size: 20px;
 `
 const DescriptionCase = styled.div`
-  width: 80%;
+  width: 85%;
   min-height: auto;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  color: sandybrown;
+  color: #00d0fd;
 `

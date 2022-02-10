@@ -7,6 +7,7 @@ import spaceImg2 from './../Images/Projects/Screenshot 2022-01-05 at 21.20.19.pn
 import spaceImg3 from './../Images/Projects/Screenshot 2022-01-10 at 14.50.59.png'
 import spaceImg4 from './../Images/Projects/Screenshot 2022-01-20 at 13.13.35.png'
 import spaceImg5 from './../Images/Projects/Screenshot 2022-02-09 at 11.19.21.png'
+import spaceImg6 from './../Images/Projects/Screenshot 2022-02-09 at 16.56.13.png'
 import Head from "../Head/Head";
 
 const Projects = () => {
@@ -39,6 +40,10 @@ const Projects = () => {
                               description={`My all new wednesday todolist with redux-thunk pushka-raketa`}
                               image={spaceImg5}
                               link={'https://YACHNIKMIKHAIL.github.io/SeaTodolist'}/>
+                    <Project1 title={'SocialNetwork'}
+                              description={`It is very long way of samurai, very hard & full on pain =(`}
+                              image={spaceImg6}
+                              link={'https://YACHNIKMIKHAIL.github.io/AppSN1.0'}/>
                 </BlockCase>
             </ContainerCase>
         </ProjectsCase>

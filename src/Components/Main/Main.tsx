@@ -42,7 +42,7 @@ const ContainerCase = styled.div`
   font-family: 'Indie Flower';
 `
 const NameCase = styled.div`
-  max-width: 60vh;
+  min-width: 43vh;
   min-height: 205px;
   background-color: rgba(34, 39, 94, 0.7);
   border-radius: 10px;
@@ -51,7 +51,8 @@ const NameCase = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
-  color: sandybrown;
+  color: #00d0fd;
+  //color: sandybrown;
 `
 const PhotoCase = styled.div`
   max-width: 60vh;

@@ -6,7 +6,7 @@ const Contacts = () => {
     return (
         <MainCase id={'contacts'}>
             <ContainerCase>
-                <span style={{margin: '20px', color: 'azure'}}>My contacts</span>
+                <span style={{margin: '10px', color: 'azure'}}>My contacts</span>
                 <ContactsCase>
                     <form action=""
                           style={{width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
@@ -21,7 +21,18 @@ const Contacts = () => {
                     </form>
                 </ContactsCase>
                 <ButtonCase>
-                    <button type="submit">Send</button>
+                    <button type="submit"
+                            style={{
+                                backgroundColor: 'hotpink',
+                                border: 'none',
+                                color: 'white',
+                                height: '40px',
+                                borderRadius: '10px',
+                                fontFamily: 'Indie Flower',
+                                fontWeight: 'bold'
+                            }}
+                    >Send
+                    </button>
                 </ButtonCase>
             </ContainerCase>
         </MainCase>
@@ -57,7 +68,7 @@ const ContactsCase = styled.div`
   color: sandybrown;
   //border: solid 4px sandybrown;
   height: 80%;
-  width: 90%;
+  max-width: 95%;
 `
 const ButtonCase = styled.div`
   height: 20%;

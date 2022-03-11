@@ -2,7 +2,13 @@ import React from 'react'
 import s from './Project.module.scss';
 import Slide from "react-reveal";
 
-export const Project = ({img, description, link, title}) => {
+type ProjectType = {
+    img: string
+    description: string
+    link: string
+    title: string
+}
+export const Project = ({img, description, link, title}: ProjectType) => {
     return (
         <Slide bottom>
             <div className={s.project}>

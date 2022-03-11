@@ -16,10 +16,11 @@ function Footer() {
             href: 'https://t.me/krblnj',
             title: 'telegram'
         },
-        {
-            href: 'https://www.instagram.com/krblnj/',
-            title: 'instagram'
-        },]
+        // {
+        //     href: 'https://www.instagram.com/krblnj/',
+        //     title: 'instagram'
+        // },
+    ]
     return (
         <div className={styles.footerContainer}>
             <p className={styles.copyRightBlock}>© 2022, All Rights Reserved.</p>

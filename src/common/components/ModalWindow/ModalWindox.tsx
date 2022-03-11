@@ -1,7 +1,12 @@
 import React from 'react';
 import s from './ModalWindow.module.scss'
 
-const HiringModal = ({active, setActive, children}) => {
+type HiringModalType={
+    active:boolean
+    setActive:(value:boolean)=>void
+    children:any
+}
+const HiringModal = ({active, setActive, children}:HiringModalType) => {
     return (
         <div className={`${active ? s.modal + ' ' + s.active : s.modal}`} onClick={() => setActive(false)}>
             <div className={`${active ? s.modalContent + ' ' + s.activeContent : s.modalContent}`}

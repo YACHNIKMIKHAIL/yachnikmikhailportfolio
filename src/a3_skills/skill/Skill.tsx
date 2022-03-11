@@ -2,8 +2,12 @@ import React from 'react'
 import styles from './Skill.module.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-
-function Skill({title, description, titleIcon}) {
+type SkillType={
+    title:string
+    description:string
+    titleIcon:any
+}
+function Skill({title, description, titleIcon}:SkillType) {
     return (
         <div className={styles.skill}>
             <div className={styles.image}>

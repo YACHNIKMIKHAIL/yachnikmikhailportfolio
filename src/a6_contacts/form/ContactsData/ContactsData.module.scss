@@ -1,0 +1,9 @@
+@import './../../../common/styles/sass/mixins';
+.data {
+    display: flex;
+    @include flexable(space-around,center,column);
+    text-align: center;
+    min-width: 240px;
+    margin-bottom: 30px;
+}
+

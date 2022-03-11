@@ -1,0 +1,37 @@
+@import './../common/styles/sass/variables';
+@import './../common/styles/sass/mixins';
+
+.footerContainer {
+  display: flex;
+  padding: 10px 0;
+  @include container();
+  @media screen and (max-width: 640px) {
+    & {
+      justify-content: center;
+    }
+  }
+
+  .copyRightBlock {
+    @include text($textColorFooter, 13px, 400, 19px, normal);
+  }
+
+  ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+
+    a {
+      padding: 0 13px;
+      @include text($textColorFooter, 13px, 400, 19px, normal);
+      text-transform: uppercase;
+      text-decoration: none;
+
+      &:hover {
+        color: #000000;
+      }
+    }
+  }
+}
+
+
+

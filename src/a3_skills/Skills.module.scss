@@ -1,0 +1,23 @@
+@import './../common/styles/sass/mixins';
+
+.skillsBlock {
+  padding: 100px 0;
+
+  .skillsContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+    @include container();
+    .skills {
+      margin-top: 60px;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+
+
+
+

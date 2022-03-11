@@ -1,0 +1,68 @@
+@import './../../../common/styles/sass/variables';
+@import './../../../common/styles/sass/mixins';
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+
+  .inputBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    input {
+      @include text($colorForForm, 14px, 300, 26px, normal);
+      border: none;
+      border-bottom: 1px solid $colorForBorderInForm;
+      padding: 5px 0;
+      font-family: $fontFamily;
+      width: 49%;
+    }
+
+    &:active, :hover, :focus {
+      outline: none;
+      outline-offset: 0;
+    }
+  }
+
+  textarea {
+    @include text($colorForForm, 14px, 300, 26px, normal);
+    font-family: $fontFamily;
+    max-height: 300px;
+    border: 1px solid $colorForBorderInForm;
+    margin: 40px 0 20px 0;
+    padding: 11px;
+    width: 95%;
+    height: 100px;
+    resize: none;
+  }
+
+  &:active, :hover, :focus {
+    outline: none;
+    outline-offset: 0;
+  }
+
+  .btn {
+    @include text($textColorH3andBtn, 14px, 400, 40px, normal);
+    font-family: 'Montserrat', sans-serif;
+    background-color: $backgroundColorBtn;
+    border: 0 none;
+    border-radius: 0;
+    height: 40px;
+    padding: 0 40px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #000000
+    }
+  }
+}
+
+
+

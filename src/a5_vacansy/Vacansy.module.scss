@@ -1,0 +1,100 @@
+@import './../common/styles/sass/mixins';
+
+.vacancyBlock {
+  max-height: 20vh;
+  padding: 80px 0;
+
+  .vacancyContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    @include container();
+    box-sizing: border-box;
+  }
+
+  .header {
+    color: $textColorH3andBtn;
+    background-color: $backgroundColorMenu;
+    padding: 18px 40px 20px;
+    border-bottom: 1px solid $colorForBorderInForm;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+    h4 {
+      font-size: 22px;
+      font-weight: 600;
+      margin: 0;
+      line-height: 1.42857143;
+    }
+
+    p {
+      margin: 3px 0 0 0;
+    }
+  }
+
+  .form {
+    padding: 30px 40px;
+    background-color: $backgroundColor;
+
+    .inputBlock {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+
+      input {
+        @include text($colorForForm, 14px, 300, 26px, normal);
+        padding: 10px 0;
+        font-family: $fontFamily;
+        margin-top: 20px;
+        border: 1px solid $colorForBorderInForm;
+        text-indent: 15px
+      }
+
+      &:active, :hover, :focus {
+        outline: none;
+        outline-offset: 0;
+      }
+
+    }
+
+    textarea {
+      @include text($colorForForm, 14px, 300, 26px, normal);
+      font-family: $fontFamily;
+      max-height: 300px;
+      border: 1px solid $colorForBorderInForm;
+      margin: 20px 0;
+      padding: 11px;
+      width: 95%;
+      height: 100px;
+      resize: none;
+    }
+
+    &:active, :hover, :focus {
+      outline: none;
+      outline-offset: 0;
+    }
+
+    .btn {
+      @include text($textColorH3andBtn, 14px, 400, 40px, normal);
+      font-family: 'Montserrat', sans-serif;
+      background-color: $backgroundColorBtn;
+      border: 0 none;
+      border-radius: 0;
+      height: 40px;
+      padding: 0 40px;
+      text-transform: uppercase;
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #000000
+      }
+    }
+  }
+}
+
+
+
+

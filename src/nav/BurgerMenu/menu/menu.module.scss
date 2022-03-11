@@ -1,0 +1,105 @@
+@import './../../../common/styles/sass/variables';
+@import './../../../common/styles/sass/mixins';
+
+.menu {
+  z-index: 9999;
+  position: fixed;
+  width: 300px;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  transition: all 0.3s ease 0s;
+  transform: translateX(130%);
+}
+
+.menuActive {
+  z-index: 9999;
+  position: fixed;
+  width: 300px;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  transition: all 0.4s ease 0s;
+  @media screen and (max-width: 767px) {
+    & {
+      width: 250px;
+    }
+  }
+}
+
+
+.menuContent {
+  height: 100%;
+  background: $backgroundColorMenu none repeat scroll 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.4s;
+
+  .closeMenu {
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    color: $colorMenu;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .menuHeader {
+    @include text($colorMenuHeader, 32px, 800, 14px, normal);
+    padding: 80px 0;
+    border-bottom: 1px solid $colorMenu;
+    width: 100%;
+    text-transform: uppercase;
+  }
+
+  .items {
+    width: 100%;
+    font-size: 1.5rem;
+    color: $textColorH3andBtn;
+
+    .oneItem {
+      width: 100%;
+      border-bottom: 1px solid $colorMenu;
+      text-align: center;
+
+      .link {
+        display: block;
+        padding: 13px 0;
+        @include text($textColorH3andBtn, 14px, 650, 14px, normal);
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background: #000000 none repeat scroll 0 0;
+        }
+      }
+
+      .active {
+        background: #000000 none repeat scroll 0 0;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

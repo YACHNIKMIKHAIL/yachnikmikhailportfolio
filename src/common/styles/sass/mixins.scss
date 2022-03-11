@@ -1,0 +1,24 @@
+@import './variables';
+
+@mixin text($color,$fontSize,$fontWeight,$lineHeight, $letterSpacing) {
+  color: $color;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  letter-spacing: $letterSpacing;
+}
+
+@mixin flexable($justifyContent,$alignItems, $flexDirection) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+  flex-direction: $flexDirection
+}
+
+@mixin container() {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  @include flexable(space-between, center, 0)
+}

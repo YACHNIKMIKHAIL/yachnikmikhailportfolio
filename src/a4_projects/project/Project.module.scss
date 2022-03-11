@@ -1,0 +1,71 @@
+@import './../../common/styles/sass/variables';
+@import './../../common/styles/sass/mixins';
+
+.project {
+  width: 95%;
+  margin: 15px 0;
+  display: inline-block;
+
+  .img {
+    height: 250px;
+    background-color: #fcf9f9;
+    @include flexable(center, center, column);
+    background-position: center;
+    background-size: cover;
+
+    .overlay {
+      @include flexable(center, center, column);
+      height: 100%;
+      width: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     /* background: rgba(159, 156, 151, 0.8);*/
+      opacity: 0;
+      -webkit-transition: opacity .25s ease-in-out;
+      -o-transition: opacity .25s ease-in-out;
+      transition: opacity .25s ease-in-out;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      .description {
+        padding: 15px;
+
+        h3 {
+          @include text($textColorH3andBtn, 24px, 650, 26px, 0.40px);
+          text-transform: uppercase;
+        }
+
+        p {
+          @include text($textColorH3andBtn, 14px, 300, 24px, normal);
+        }
+
+        .btn {
+          text-decoration: none;
+          border: 1px solid $textColorH3andBtn;
+          outline: 0;
+          -webkit-transition: .25s;
+          -o-transition: .25s;
+          transition: .25s;
+          text-transform: uppercase;
+          padding: 8px 12px;
+          cursor: pointer;
+          @include text($textColorH3andBtn, 14px, 600, 1.42857143, normal);
+          &:hover{
+            /*background-color: #303030;
+            border-color: #303030;*/
+            background-color: #2b2b2b;
+            border-color: #2b2b2b;
+          }
+        }
+      }
+    }
+  }
+}
+
+.project:nth-child(4n+1) .img, .project:nth-child(4n) .img {
+  height: 350px;
+}
+
+
+

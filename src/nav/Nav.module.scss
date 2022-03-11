@@ -1,0 +1,78 @@
+@import './../common/styles/sass/mixins';
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f5f5;
+  padding: 10px 0;
+  width: 100%;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+  .container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .link {
+      @include text(#777777, 14px, 650, 40px, 0.40px);
+      text-decoration: none;
+      padding: 0 5px;
+      text-transform: uppercase;
+      position: relative;
+      margin-right: 20px;
+      cursor: pointer;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &::after {
+        width: 0;
+        background: #afafaf none repeat scroll 0 0;
+        content: "";
+        height: 3px;
+        left: 0;
+        position: absolute;
+        top: 50%;
+        transform: translate(-0, -50%);
+        transition: all .3s ease-in-out;
+      }
+
+      &:hover {
+        @include text(#afafaf, 14px, 650, 40px, 0.40px);
+
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+
+    .active {
+      @include text(#afafaf, 14px, 650, 40px, 0.40px);
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 564px) {
+    .link {
+      display: none
+    }
+  }
+}
+
+
+
+
+
+
+
+

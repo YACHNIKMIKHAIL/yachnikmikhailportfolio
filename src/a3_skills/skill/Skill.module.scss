@@ -1,0 +1,81 @@
+@import './../../common/styles/sass/mixins';
+@import './../../common/styles/sass/variables';
+.skill {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 10px 60px 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 5px rgba(5, 5, 6, 0.15);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+
+  h5 {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+    size: 24px;
+  }
+
+  hr {
+    border: 0;
+    border-top: 2px solid #dbdbdb;
+  }
+
+  p {
+    @include text(#979797, 14px, 400, 24px, normal);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+
+  .hR {
+    margin: 15px auto;
+    width: 50px;
+  }
+
+  .image {
+    margin-bottom: 20px;
+    border: 1px solid #8a8a8a;
+    border-radius: 50%;
+    @include text(#8a8a8a, 19px, 400, 36px, normal);
+    height: 36px;
+    width: 36px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    .icon {
+      -webkit-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      font-size: 20px;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 4px 15px rgba(5, 5, 6, 0.1);
+    -webkit-box-shadow: 0 3px 20px rgba(5, 5, 6, 0.10);
+
+    .image {
+      background: $backgroundColorBtn none repeat scroll 0 0;
+      border-color:$backgroundColorBtn;
+
+      .icon {
+        color: white;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

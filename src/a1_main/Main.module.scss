@@ -1,0 +1,46 @@
+@import './../common/styles/sass/variables';
+@import './../common/styles/sass/mixins';
+
+
+.mainBlock {
+  min-height: 90vh;
+  @include flexable(space-between,center,column);
+  .container{
+    @include container();
+  }
+  .greeting {
+    width: 500px;
+    text-align: left;
+
+    h1 {
+      @include text($textColorH1,38px,700,40px,normal);
+      text-transform: uppercase;
+      margin: 0 0 15px;
+      line-height: 1.1;
+    }
+
+    h5 h4 h6 h3 {
+      @include text($textColorH5,16px,700,40px, 1px);
+      margin: 0 0 15px;
+      text-transform: uppercase;
+    }
+
+  }
+
+  .photo {
+    display: flex;
+    flex-direction: column;
+    width:500px;
+
+    img {
+      height: auto;
+      width: 100%;
+      max-width: 720px;
+    }
+  }
+}
+
+
+
+
+

@@ -1,0 +1,39 @@
+@import './../../../common/styles/sass/variables';
+@import './../../../common/styles/sass/mixins';
+.title {
+  @include text($titleColor,32px,700,32px, normal);
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  position: relative;
+
+  h2 {
+    margin: 0 0 15px;;
+  }
+
+  &::before {
+    margin-bottom: 0;
+    content: '';
+    width: 44px;
+    height: 2px;
+    background: $textColorH2;
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translate(-50%, 50%);
+  }
+
+  &::after {
+    margin: 0;
+    content: '';
+    width: 77px;
+    height: 2px;
+    background: $textColorH2;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translate(-50%, 50%);
+  }
+}
+
+
+

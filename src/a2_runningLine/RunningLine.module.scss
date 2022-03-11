@@ -1,0 +1,12 @@
+@import './../common/styles/sass/variables';
+@import './../common/styles/sass/mixins';
+
+.runningLineBlock {
+  @include text(white, 150px, 700, normal, 1px);
+  min-height: 20vh;
+  padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px $colorForRunningLine;
+  white-space: nowrap;
+}

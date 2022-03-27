@@ -10,7 +10,7 @@ function ContactsData() {
     return (
             <div className={styles.data}>
                 <DataBlock iconTitle={faTelegramPlane} contactTitle={'Phone'} data={'+375-33-361-07-44'} a={"tel:+375-33-361-07-44"}/>
-                <DataBlock iconTitle={faEnvelope} contactTitle={'Email'} data={'limerick2011@yandex.by'} a={""}/>
+                <DataBlock iconTitle={faEnvelope} contactTitle={'Email'} data={'yachnikmikhail@gmail.com'} a={""}/>
                 <DataBlock iconTitle={faHome} contactTitle={'My Location'} data={'Brest, Belarus'} a={""}/>
             </div>
     );

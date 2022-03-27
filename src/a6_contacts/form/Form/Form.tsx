@@ -19,7 +19,7 @@ function Form() {
                 message: value.message,
             })
             formik.resetForm()
-            axios.post("http://ymndjs.herokuapp.com/sendMessage", {
+            axios.post("https://ymndjs.herokuapp.com/sendMessage", {
             // axios.post("http://localhost:3010/sendMessage", {
                 name: value.name,
                 email: value.email,

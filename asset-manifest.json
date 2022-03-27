@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yachnikmikhailportfolio/static/css/main.cbb0e257.css",
-    "main.js": "/yachnikmikhailportfolio/static/js/main.f10b135e.js",
+    "main.js": "/yachnikmikhailportfolio/static/js/main.3088c6d8.js",
     "static/js/787.43402658.chunk.js": "/yachnikmikhailportfolio/static/js/787.43402658.chunk.js",
     "static/media/sea.png": "/yachnikmikhailportfolio/static/media/sea.2c20431913b2a437087a.png",
     "static/media/space.png": "/yachnikmikhailportfolio/static/media/space.3c9aab8cbda34104ac62.png",
@@ -14,11 +14,11 @@
     "static/media/photo.jpg": "/yachnikmikhailportfolio/static/media/photo.6397d4cccf1d46535e7d.jpg",
     "index.html": "/yachnikmikhailportfolio/index.html",
     "main.cbb0e257.css.map": "/yachnikmikhailportfolio/static/css/main.cbb0e257.css.map",
-    "main.f10b135e.js.map": "/yachnikmikhailportfolio/static/js/main.f10b135e.js.map",
+    "main.3088c6d8.js.map": "/yachnikmikhailportfolio/static/js/main.3088c6d8.js.map",
     "787.43402658.chunk.js.map": "/yachnikmikhailportfolio/static/js/787.43402658.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbb0e257.css",
-    "static/js/main.f10b135e.js"
+    "static/js/main.3088c6d8.js"
   ]
 }

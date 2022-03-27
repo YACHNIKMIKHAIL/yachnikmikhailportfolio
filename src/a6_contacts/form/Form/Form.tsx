@@ -1,16 +1,56 @@
 import React from 'react'
 import styles from './Form.module.scss';
+import {useFormik} from "formik";
+import axios from "axios";
 
 
 function Form() {
+    const formik = useFormik({
+        initialValues: {
+            name: '',
+            email: '',
+            phone: '',
+            message: '',
+        },
+        onSubmit: value => {
+            console.log({
+                name: value.name,
+                email: value.email,
+                message: value.message,
+            })
+            formik.resetForm()
+            axios.post("https://ymndjs.herokuapp.com/sendMessage", {
+            // axios.post("http://localhost:3010/sendMessage", {
+                name: value.name,
+                email: value.email,
+                message: value.message,
+            })
+                .then(() => {
+                    alert('ok!')
+                })
+        }
+    })
+
+
     return (
-        <form className={styles.form}>
+        <form className={styles.form} onSubmit={formik.handleSubmit}>
             <div className={styles.inputBlock}>
-                <input type="text" placeholder="Your Name"/>
-                <input type="email" placeholder="Your Email"/>
+                <input
+                    type={"text"}
+                    placeholder={"Name"}
+                    {...formik.getFieldProps('name')}
+                />
+                <input
+                    type={"text"}
+                    placeholder={"Email"}
+                    {...formik.getFieldProps('email')}
+                />
             </div>
-            <textarea placeholder="Your Message"/>
-            <button className={styles.btn}>
+            <textarea
+                placeholder={"Your message"}
+                {...formik.getFieldProps('message')}/>
+
+            <button className={styles.btn} type={'submit'}>
                 Send Message
             </button>
         </form>

@@ -9,7 +9,7 @@ import imgFour from '../assets/images/counter.png'
 import imgFive from '../assets/images/mountain.png'
 import imgSix from '../assets/images/samurai.png'
 import imgSeven from '../assets/images/space.png'
-import imgEight from '../assets/images/download.jpeg'
+import imgNine from '../assets/images/friday.png'
 
 
 function Projects() {
@@ -22,7 +22,7 @@ function Projects() {
                         title={"SeaTodolist"}
                         img={imgOne}
                         description={"My all new wednesday todolist with redux-thunk pushka-raketa, also with login, and drad&drop =)"}
-                        link={"https://YACHNIKMIKHAIL.github.io/SeaTodolist"}/>
+                        link={"https://seatodolist.herokuapp.com/"}/>
                     <Project
                         title={"SocialNetwork"}
                         img={imgTwo}
@@ -60,10 +60,10 @@ function Projects() {
                         link={"https://YACHNIKMIKHAIL.github.io/SpaceTodolist"}/>
 
                     <Project
-                        title={"future project "}
-                        img={imgEight}
-                        description={"...in progress"}
-                        link={"link #2"}/>
+                        title={"Our team project =) "}
+                        img={imgNine}
+                        description={"I like work in team. It's like Olympic games...Only my team should win!!!"}
+                        link={"https://YACHNIKMIKHAIL.github.io/IFriday"}/>
                 </div>
             </div>
         </div>

@@ -57,21 +57,18 @@ function Vacancy() {
                         </div>
                         <form className={st.form} onSubmit={formik.handleSubmit}>
                             <div className={st.inputBlock}>
-                                {/*<input type="text" placeholder="Your Name"/>*/}
                                 <input
                                     type={"text"}
                                     placeholder={"Your Name"}
                                     {...formik.getFieldProps('name')}
                                 />
 
-                                {/*<input type="text" placeholder="Your Project title"/>*/}
                                 <input
                                     type={"text"}
                                     placeholder={"Your Project title"}
                                     {...formik.getFieldProps('projectTitle')}
                                 />
 
-                                {/*<input type="email" placeholder="Please enter Your Email"/>*/}
                                 <input
                                     type={"email"}
                                     placeholder={"Please enter Your Email"}

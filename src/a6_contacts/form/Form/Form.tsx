@@ -9,7 +9,6 @@ function Form() {
         initialValues: {
             name: '',
             email: '',
-            phone: '',
             message: '',
         },
         onSubmit: value => {

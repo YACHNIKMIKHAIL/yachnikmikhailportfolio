@@ -10,6 +10,7 @@ import imgFive from '../assets/images/mountain.png'
 import imgSix from '../assets/images/samurai.png'
 import imgSeven from '../assets/images/space.png'
 import imgNine from '../assets/images/friday.png'
+import imgTen from '../assets/images/mag.png'
 
 
 function Projects() {
@@ -64,6 +65,11 @@ function Projects() {
                         img={imgNine}
                         description={"I like work in team. It's like Olympic games...Only my team should win!!!"}
                         link={"https://YACHNIKMIKHAIL.github.io/IFriday"}/>
+                    <Project
+                        title={"MagazineShop"}
+                        img={imgTen}
+                        description={"My first full-stack project realised with express, mongoDB, react & nodeJS. It is difficult, but not hard, I like it =)"}
+                        link={"https://test-learning-mag-app.herokuapp.com/"}/>
                 </div>
             </div>
         </div>

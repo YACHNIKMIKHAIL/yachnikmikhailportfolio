@@ -8,7 +8,7 @@ function RunningLine() {
         <div className={'ourNth'}>
             <div className={styles.runningLineBlock}>
                 <Marquee direction={'left'} speed={0.06}>
-                    CODDING && LOVE && PEACE &&
+                    CODING&&LOVE&&PEACE&&
                 </Marquee>
             </div>
         </div>

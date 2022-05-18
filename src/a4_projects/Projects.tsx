@@ -11,6 +11,8 @@ import imgSix from '../assets/images/samurai.png'
 import imgSeven from '../assets/images/space.png'
 import imgNine from '../assets/images/friday.png'
 import imgTen from '../assets/images/mag.png'
+import imgEleven from '../assets/images/chees.png'
+import imgTwelve from '../assets/images/RN.png'
 
 
 function Projects() {
@@ -70,6 +72,16 @@ function Projects() {
                         img={imgTen}
                         description={"My first full-stack project realised with express, mongoDB, react & nodeJS. It is difficult, but not hard, I like it =)"}
                         link={"https://test-learning-mag-app.herokuapp.com/"}/>
+                    <Project
+                        title={"REACT Chess"}
+                        img={imgEleven}
+                        description={"First big project after moving to another country. Stack: JS,TS. `Based on the principles of Object Oriented Programming"}
+                        link={"https://yachnikmikhail.github.io/Moje-szachy/"}/>
+                    <Project
+                        title={"MagazineShop MOBILE APP"}
+                        img={imgTwelve}
+                        description={"My first full-stack project rewritten on REACT-NATIVE, with requests on Heroku & redux-toolkit"}
+                        />
                 </div>
             </div>
         </div>

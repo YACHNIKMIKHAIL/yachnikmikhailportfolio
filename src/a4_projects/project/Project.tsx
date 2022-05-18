@@ -5,7 +5,7 @@ import Slide from "react-reveal";
 type ProjectType = {
     img: string
     description: string
-    link: string
+    link?: string
     title: string
 }
 export const Project = ({img, description, link, title}: ProjectType) => {
@@ -17,7 +17,7 @@ export const Project = ({img, description, link, title}: ProjectType) => {
                         <div className={s.description}>
                             <h3>{title}</h3>
                             <p>{description}</p>
-                            <a href={link} className={s.btn} target="_blank" rel="noreferrer">view project</a>
+                            {link && <a href={link} className={s.btn} target="_blank" rel="noreferrer">view project</a>}
                         </div>
                     </div>
                 </div>

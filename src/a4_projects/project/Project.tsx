@@ -7,8 +7,9 @@ type ProjectType = {
     description: string
     link?: string
     title: string
+    bottonTitle:string
 }
-export const Project = ({img, description, link, title}: ProjectType) => {
+export const Project = ({img, description, link, title,bottonTitle}: ProjectType) => {
     return (
         <Slide bottom>
             <div className={s.project}>
@@ -17,7 +18,7 @@ export const Project = ({img, description, link, title}: ProjectType) => {
                         <div className={s.description}>
                             <h3>{title}</h3>
                             <p>{description}</p>
-                            {link && <a href={link} className={s.btn} target="_blank" rel="noreferrer">view project</a>}
+                            {link && <a href={link} className={s.btn} target="_blank" rel="noreferrer">{bottonTitle}</a>}
                         </div>
                     </div>
                 </div>

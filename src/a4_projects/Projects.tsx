@@ -14,6 +14,9 @@ import imgTen from '../assets/images/mag.png'
 import imgEleven from '../assets/images/chees.png'
 import imgTwelve from '../assets/images/RN.png'
 import imgThirteen from '../assets/images/scwb/done.png'
+import imgFourteen from '../assets/images/mobXShop.png'
+import Slide from "react-reveal";
+import s from "./project/Project.module.scss";
 
 
 function Projects() {
@@ -94,7 +97,7 @@ function Projects() {
                         img={imgTwelve}
                         description={"My first full-stack project rewritten on REACT-NATIVE, with requests on Heroku " +
                             "& redux-toolkit"}
-                        />
+                    />
 
 
                     <Project
@@ -104,6 +107,29 @@ function Projects() {
                         description={"Created on react class component/ real old-school =) TS, StyledComponent, " +
                             "deprecated Hocs at appoloGraphQL connection. Pain & Happiness in the same project / bbbra!"}
                         link={"https://github.com/YACHNIKMIKHAIL/bwdncs-tst"}/>
+
+                    <Slide bottom>
+                        <div className={s.project}>
+                            <div className={s.img} style={{backgroundImage: `url(${imgFourteen})`}}>
+                                <div className={s.overlay}>
+                                    <div className={s.description}>
+                                        <h3>{"SHOP"}</h3>
+                                        <a href={'https://github.com/YACHNIKMIKHAIL/play-with-U-mbxFrnt'}
+                                            style={{color:'white'}}
+                                           target="_blank" rel="noreferrer">
+                                            Front:</a>
+                                        <p>React,TypeScript,mobX,bootstrap.</p>
+                                        <a href={'https://github.com/YACHNIKMIKHAIL/play-with-U-psgrsql'}
+                                            style={{color:'white'}}
+                                           target="_blank" rel="noreferrer">
+                                            Back:</a>
+                                        <p> Express, postgreSQL, jwtToken authorization</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Slide>
+
 
                 </div>
             </div>

@@ -15,6 +15,8 @@ import imgEleven from '../assets/images/chees.png'
 import imgTwelve from '../assets/images/RN.png'
 import imgThirteen from '../assets/images/scwb/done.png'
 import imgFourteen from '../assets/images/mobXShop.png'
+import imgFifteen from '../assets/images/FAA.png'
+import imgSixteen from '../assets/images/organizer.png'
 import Slide from "react-reveal";
 import s from "./project/Project.module.scss";
 
@@ -115,12 +117,12 @@ function Projects() {
                                     <div className={s.description}>
                                         <h3>{"SHOP"}</h3>
                                         <a href={'https://github.com/YACHNIKMIKHAIL/play-with-U-mbxFrnt'}
-                                            style={{color:'white'}}
+                                           style={{color: 'white'}}
                                            target="_blank" rel="noreferrer">
                                             Front:</a>
                                         <p>React,TypeScript,mobX,bootstrap.</p>
                                         <a href={'https://github.com/YACHNIKMIKHAIL/play-with-U-psgrsql'}
-                                            style={{color:'white'}}
+                                           style={{color: 'white'}}
                                            target="_blank" rel="noreferrer">
                                             Back:</a>
                                         <p> Express, postgreSQL, jwtToken authorization</p>
@@ -129,6 +131,19 @@ function Projects() {
                             </div>
                         </div>
                     </Slide>
+
+                    <Project
+                        bottonTitle={'view project'}
+                        title={"Angular-app"}
+                        img={imgFifteen}
+                        description={"My first experience with angular. ng g c, pipes, rxJs & tailwind."}
+                        link={"https://yachnikmikhail.github.io/playANGLR/"}/>
+                    <Project
+                        bottonTitle={'view project'}
+                        title={"Angular-organizer"}
+                        img={imgSixteen}
+                        description={"Only framework & scss. Firebase/DB is connected for tasks"}
+                        link={"https://yachnikmikhail.github.io/organizer/"}/>
 
 
                 </div>

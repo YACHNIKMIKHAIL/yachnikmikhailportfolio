@@ -18,6 +18,7 @@ import imgFourteen from '../assets/images/mobXShopII.png'
 import imgFifteen from '../assets/images/FAA.png'
 import imgSixteen from '../assets/images/organizer.png'
 import imgSeventeen from '../assets/images/questionsAPPII.png'
+import imgEighteen from '../assets/images/DnD.png'
 import Slide from "react-reveal";
 import s from "./project/Project.module.scss";
 
@@ -151,7 +152,12 @@ function Projects() {
                         img={imgSeventeen}
                         description={"Single app wrote on pure JS. Connected to Firebase with authorisation..."}
                         link={"https://github.com/YACHNIKMIKHAIL/AskMeApp"}/>
-
+                    <Project
+                        bottonTitle={'view'}
+                        title={"DnD"}
+                        img={imgEighteen}
+                        description={"Played with DnD on pure REACT, in waiting my dream offer..."}
+                        link={"https://yachnikmikhail.github.io/UdrgNdrp/"}/>
                 </div>
             </div>
         </div>

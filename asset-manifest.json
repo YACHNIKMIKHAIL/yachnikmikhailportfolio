@@ -1,31 +1,32 @@
 {
   "files": {
     "main.css": "/yachnikmikhailportfolio/static/css/main.cbb0e257.css",
-    "main.js": "/yachnikmikhailportfolio/static/js/main.4c6df721.js",
+    "main.js": "/yachnikmikhailportfolio/static/js/main.e1a5ae60.js",
     "static/js/787.43402658.chunk.js": "/yachnikmikhailportfolio/static/js/787.43402658.chunk.js",
-    "static/media/sea.png": "/yachnikmikhailportfolio/static/media/sea.2c20431913b2a437087a.png",
-    "static/media/mag.png": "/yachnikmikhailportfolio/static/media/mag.836c735946ef1521f587.png",
-    "static/media/space.png": "/yachnikmikhailportfolio/static/media/space.3c9aab8cbda34104ac62.png",
-    "static/media/mountain.png": "/yachnikmikhailportfolio/static/media/mountain.ca4a0e23d0f1733b8b6f.png",
-    "static/media/samurai.png": "/yachnikmikhailportfolio/static/media/samurai.aedc53cfce9d5ec6228d.png",
+    "static/media/seaII.png": "/yachnikmikhailportfolio/static/media/seaII.d5bfaee63167fe553a77.png",
+    "static/media/spaceII.png": "/yachnikmikhailportfolio/static/media/spaceII.18af104a3d32bcc6d2d5.png",
     "static/media/counter.png": "/yachnikmikhailportfolio/static/media/counter.9f8c1df2cfa1c4664a9f.png",
-    "static/media/done.png": "/yachnikmikhailportfolio/static/media/done.33e13c466a33d524fd1d.png",
+    "static/media/magII.png": "/yachnikmikhailportfolio/static/media/magII.5e7e197d04e463cf7682.png",
     "static/media/RN.png": "/yachnikmikhailportfolio/static/media/RN.e6c524919cddb9b6ead3.png",
     "static/media/sn.png": "/yachnikmikhailportfolio/static/media/sn.dbc587195ddc8f90269b.png",
+    "static/media/samuraiII.png": "/yachnikmikhailportfolio/static/media/samuraiII.2a1d3f86425b65f9e19b.png",
     "static/media/avia.png": "/yachnikmikhailportfolio/static/media/avia.375bbb182ae3af5d1192.png",
     "static/media/FAA.png": "/yachnikmikhailportfolio/static/media/FAA.bd38ea62ed31f91057b0.png",
-    "static/media/chees.png": "/yachnikmikhailportfolio/static/media/chees.5dd7e5fba2dd6dabc76e.png",
-    "static/media/friday.png": "/yachnikmikhailportfolio/static/media/friday.187cbcc5d8ba967d6098.png",
-    "static/media/mobXShop.png": "/yachnikmikhailportfolio/static/media/mobXShop.728f427d5cb3d2ad6970.png",
+    "static/media/mountainII.png": "/yachnikmikhailportfolio/static/media/mountainII.f70819c5a2a9b4877e37.png",
+    "static/media/fridayII.png": "/yachnikmikhailportfolio/static/media/fridayII.cf430efc4275bf183329.png",
+    "static/media/scndwb.png": "/yachnikmikhailportfolio/static/media/scndwb.56aa33b4016f713233f7.png",
+    "static/media/mobXShopII.png": "/yachnikmikhailportfolio/static/media/mobXShopII.4cd992b78cb1ad6001bb.png",
+    "static/media/cheesII.png": "/yachnikmikhailportfolio/static/media/cheesII.dc53790dbf650caa8801.png",
     "static/media/organizer.png": "/yachnikmikhailportfolio/static/media/organizer.6a2ec6547bcb47eb8945.png",
+    "static/media/questionsAPPII.png": "/yachnikmikhailportfolio/static/media/questionsAPPII.68375b50e59497b7c9c7.png",
     "static/media/photo.jpg": "/yachnikmikhailportfolio/static/media/photo.6397d4cccf1d46535e7d.jpg",
     "index.html": "/yachnikmikhailportfolio/index.html",
     "main.cbb0e257.css.map": "/yachnikmikhailportfolio/static/css/main.cbb0e257.css.map",
-    "main.4c6df721.js.map": "/yachnikmikhailportfolio/static/js/main.4c6df721.js.map",
+    "main.e1a5ae60.js.map": "/yachnikmikhailportfolio/static/js/main.e1a5ae60.js.map",
     "787.43402658.chunk.js.map": "/yachnikmikhailportfolio/static/js/787.43402658.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbb0e257.css",
-    "static/js/main.4c6df721.js"
+    "static/js/main.e1a5ae60.js"
   ]
 }

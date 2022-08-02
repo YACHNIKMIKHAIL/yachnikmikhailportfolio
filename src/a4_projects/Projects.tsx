@@ -2,21 +2,22 @@ import React from 'react'
 import styles from './Projects.module.scss';
 import {Project} from "./project/Project";
 import Title from "../common/components/title/Title";
-import imgOne from './../assets/images/sea.png'
+import imgOne from './../assets/images/seaII.png'
 import imgTwo from '../assets/images/sn.png'
 import imgThree from '../assets/images/avia.png'
 import imgFour from '../assets/images/counter.png'
-import imgFive from '../assets/images/mountain.png'
-import imgSix from '../assets/images/samurai.png'
-import imgSeven from '../assets/images/space.png'
-import imgNine from '../assets/images/friday.png'
-import imgTen from '../assets/images/mag.png'
-import imgEleven from '../assets/images/chees.png'
+import imgFive from '../assets/images/mountainII.png'
+import imgSix from '../assets/images/samuraiII.png'
+import imgSeven from '../assets/images/spaceII.png'
+import imgNine from '../assets/images/fridayII.png'
+import imgTen from '../assets/images/magII.png'
+import imgEleven from '../assets/images/cheesII.png'
 import imgTwelve from '../assets/images/RN.png'
-import imgThirteen from '../assets/images/scwb/done.png'
-import imgFourteen from '../assets/images/mobXShop.png'
+import imgThirteen from '../assets/images/scwb/scndwb.png'
+import imgFourteen from '../assets/images/mobXShopII.png'
 import imgFifteen from '../assets/images/FAA.png'
 import imgSixteen from '../assets/images/organizer.png'
+import imgSeventeen from '../assets/images/questionsAPPII.png'
 import Slide from "react-reveal";
 import s from "./project/Project.module.scss";
 
@@ -144,7 +145,12 @@ function Projects() {
                         img={imgSixteen}
                         description={"Only framework & scss. Firebase/DB is connected for tasks"}
                         link={"https://yachnikmikhail.github.io/organizer/"}/>
-
+                    <Project
+                        bottonTitle={'link to gitRepo'}
+                        title={"Ask-me-app"}
+                        img={imgSeventeen}
+                        description={"Single app wrote on pure JS. Connected to Firebase with authorisation..."}
+                        link={"https://github.com/YACHNIKMIKHAIL/AskMeApp"}/>
 
                 </div>
             </div>

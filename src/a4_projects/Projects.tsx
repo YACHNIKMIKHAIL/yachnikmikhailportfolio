@@ -19,6 +19,7 @@ import imgFifteen from '../assets/images/FAA.png'
 import imgSixteen from '../assets/images/organizer.png'
 import imgSeventeen from '../assets/images/questionsAPPII.png'
 import imgEighteen from '../assets/images/DnD.png'
+import imgNineteen from '../assets/images/NGtodo.png'
 import Slide from "react-reveal";
 import s from "./project/Project.module.scss";
 
@@ -158,6 +159,14 @@ function Projects() {
                         img={imgEighteen}
                         description={"Played with DnD on pure REACT, in waiting my dream offer..."}
                         link={"https://yachnikmikhail.github.io/UdrgNdrp/"}/>
+
+                    <Project
+                        bottonTitle={'view project'}
+                        title={"Small NG-todo"}
+                        img={imgNineteen}
+                        description={"NG-todo, realized with pipes & httpCli/get request. Base CRUD operations."}
+                        link={"https://yachnikmikhail.github.io/playWithNG/"}/>
+
                 </div>
             </div>
         </div>

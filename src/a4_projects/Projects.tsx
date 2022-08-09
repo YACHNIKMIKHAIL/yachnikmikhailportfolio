@@ -20,6 +20,7 @@ import imgSixteen from '../assets/images/organizer.png'
 import imgSeventeen from '../assets/images/questionsAPPII.png'
 import imgEighteen from '../assets/images/DnD.png'
 import imgNineteen from '../assets/images/NGtodo.png'
+import imgTwenty from '../assets/images/batList.png'
 import Slide from "react-reveal";
 import s from "./project/Project.module.scss";
 
@@ -167,6 +168,12 @@ function Projects() {
                         description={"NG-todo, realized with pipes & httpCli/get request. Base CRUD operations."}
                         link={"https://yachnikmikhail.github.io/playWithNG/"}/>
 
+                    <Project
+                        bottonTitle={'view project'}
+                        title={"Future BatList"}
+                        img={imgTwenty}
+                        description={"Pure NG project"}
+                        link={""}/>
                 </div>
             </div>
         </div>

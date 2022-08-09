@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/yachnikmikhailportfolio/static/css/main.cbb0e257.css",
-    "main.js": "/yachnikmikhailportfolio/static/js/main.af8bc7ce.js",
+    "main.js": "/yachnikmikhailportfolio/static/js/main.df1f6bf1.js",
     "static/js/787.43402658.chunk.js": "/yachnikmikhailportfolio/static/js/787.43402658.chunk.js",
     "static/media/seaII.png": "/yachnikmikhailportfolio/static/media/seaII.d5bfaee63167fe553a77.png",
     "static/media/spaceII.png": "/yachnikmikhailportfolio/static/media/spaceII.18af104a3d32bcc6d2d5.png",
     "static/media/counter.png": "/yachnikmikhailportfolio/static/media/counter.9f8c1df2cfa1c4664a9f.png",
     "static/media/magII.png": "/yachnikmikhailportfolio/static/media/magII.5e7e197d04e463cf7682.png",
     "static/media/RN.png": "/yachnikmikhailportfolio/static/media/RN.e6c524919cddb9b6ead3.png",
+    "static/media/batList.png": "/yachnikmikhailportfolio/static/media/batList.60f20e5072f43bf5a7d2.png",
     "static/media/sn.png": "/yachnikmikhailportfolio/static/media/sn.dbc587195ddc8f90269b.png",
     "static/media/samuraiII.png": "/yachnikmikhailportfolio/static/media/samuraiII.2a1d3f86425b65f9e19b.png",
     "static/media/avia.png": "/yachnikmikhailportfolio/static/media/avia.375bbb182ae3af5d1192.png",
@@ -24,11 +25,11 @@
     "static/media/DnD.png": "/yachnikmikhailportfolio/static/media/DnD.c608a937ff1dac72afd1.png",
     "index.html": "/yachnikmikhailportfolio/index.html",
     "main.cbb0e257.css.map": "/yachnikmikhailportfolio/static/css/main.cbb0e257.css.map",
-    "main.af8bc7ce.js.map": "/yachnikmikhailportfolio/static/js/main.af8bc7ce.js.map",
+    "main.df1f6bf1.js.map": "/yachnikmikhailportfolio/static/js/main.df1f6bf1.js.map",
     "787.43402658.chunk.js.map": "/yachnikmikhailportfolio/static/js/787.43402658.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbb0e257.css",
-    "static/js/main.af8bc7ce.js"
+    "static/js/main.df1f6bf1.js"
   ]
 }

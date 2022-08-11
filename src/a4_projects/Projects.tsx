@@ -170,10 +170,10 @@ function Projects() {
 
                     <Project
                         bottonTitle={'view project'}
-                        title={"Future BatList"}
+                        title={"BatList"}
                         img={imgTwenty}
-                        description={"Pure NG project"}
-                        link={""}/>
+                        description={"Pure NG project, with http request, validations, pipes, etc"}
+                        link={"https://ng-app-todo.herokuapp.com/"}/>
                 </div>
             </div>
         </div>

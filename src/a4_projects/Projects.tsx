@@ -149,11 +149,11 @@ function Projects() {
                         description={"Only framework & scss. Firebase/DB is connected for tasks"}
                         link={"https://yachnikmikhail.github.io/organizer/"}/>
                     <Project
-                        bottonTitle={'link to gitRepo'}
+                        bottonTitle={'view project'}
                         title={"Ask-me-app"}
                         img={imgSeventeen}
                         description={"Single app wrote on pure JS. Connected to Firebase with authorisation..."}
-                        link={"https://github.com/YACHNIKMIKHAIL/AskMeApp"}/>
+                        link={"https://questions-app-e3de4.web.app/"}/>
                     <Project
                         bottonTitle={'view'}
                         title={"DnD"}

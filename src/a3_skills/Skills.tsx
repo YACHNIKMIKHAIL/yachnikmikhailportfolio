@@ -12,10 +12,10 @@ function Skills() {
             <div className={styles.skillsContainer}>
                 <Title title={'My Skills'}/>
                 <div className={styles.skills}>
-                    <Skill title={'DEVELOPMENT'} description={"REACT/REDUX/AXIOS"} titleIcon={faLaptopCode}/>
-                    <Skill title={'FOUNDATION'} description={"JavaScript/TypeScript"} titleIcon={faBriefcase}/>
-                    <Skill title={'TESTING'} description={"Unit tests/StoryBook/TDD"} titleIcon={faTasks}/>
-                    <Skill title={'DESIGN'} description={"Material UI/Ant Design"} titleIcon={faSketch}/>
+                    <Skill title={'DEVELOPMENT'} description={"ANGULAR / REACT"} titleIcon={faLaptopCode}/>
+                    <Skill title={'FOUNDATION'} description={"JavaScript / TypeScript"} titleIcon={faBriefcase}/>
+                    <Skill title={'TESTING'} description={"Jasmine / Jest"} titleIcon={faTasks}/>
+                    <Skill title={'DESIGN'} description={"Angular Material / Material UI"} titleIcon={faSketch}/>
                 </div>
             </div>
         </div>

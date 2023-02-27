@@ -21,6 +21,7 @@ import imgSeventeen from '../assets/images/questionsAPPII.png'
 import imgEighteen from '../assets/images/DnD.png'
 import imgNineteen from '../assets/images/NGtodo.png'
 import imgTwenty from '../assets/images/batList.png'
+import imgNinety from '../assets/images/medium.png'
 import Slide from "react-reveal";
 import s from "./project/Project.module.scss";
 
@@ -174,6 +175,14 @@ function Projects() {
                         img={imgTwenty}
                         description={"Pure NG project, with http request, validations, pipes, etc"}
                         link={"https://ng-app-todo.herokuapp.com/"}/>
+
+                    <Project
+                        bottonTitle={'view project'}
+                        title={"Medium-clone"}
+                        img={imgNinety}
+                        description={"Clone of MEDIUM site written in ANGULAR using ngRx and public API. Super simple " +
+                            "layout, but not simple logic under the hood :) Partially test-covered"}
+                        link={"https://yachnikmikhail.github.io/medium-clone-ngRx/login"}/>
                 </div>
             </div>
         </div>

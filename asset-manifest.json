@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yachnikmikhailportfolio/static/css/main.cbb0e257.css",
-    "main.js": "/yachnikmikhailportfolio/static/js/main.89625a1d.js",
+    "main.js": "/yachnikmikhailportfolio/static/js/main.07d32264.js",
     "static/js/787.43402658.chunk.js": "/yachnikmikhailportfolio/static/js/787.43402658.chunk.js",
     "static/media/seaII.png": "/yachnikmikhailportfolio/static/media/seaII.d5bfaee63167fe553a77.png",
     "static/media/spaceII.png": "/yachnikmikhailportfolio/static/media/spaceII.18af104a3d32bcc6d2d5.png",
@@ -14,6 +14,7 @@
     "static/media/avia.png": "/yachnikmikhailportfolio/static/media/avia.375bbb182ae3af5d1192.png",
     "static/media/FAA.png": "/yachnikmikhailportfolio/static/media/FAA.bd38ea62ed31f91057b0.png",
     "static/media/mountainII.png": "/yachnikmikhailportfolio/static/media/mountainII.f70819c5a2a9b4877e37.png",
+    "static/media/medium.png": "/yachnikmikhailportfolio/static/media/medium.760734e8debbd8ff3954.png",
     "static/media/fridayII.png": "/yachnikmikhailportfolio/static/media/fridayII.cf430efc4275bf183329.png",
     "static/media/scndwb.png": "/yachnikmikhailportfolio/static/media/scndwb.56aa33b4016f713233f7.png",
     "static/media/mobXShopII.png": "/yachnikmikhailportfolio/static/media/mobXShopII.4cd992b78cb1ad6001bb.png",
@@ -25,11 +26,11 @@
     "static/media/DnD.png": "/yachnikmikhailportfolio/static/media/DnD.c608a937ff1dac72afd1.png",
     "index.html": "/yachnikmikhailportfolio/index.html",
     "main.cbb0e257.css.map": "/yachnikmikhailportfolio/static/css/main.cbb0e257.css.map",
-    "main.89625a1d.js.map": "/yachnikmikhailportfolio/static/js/main.89625a1d.js.map",
+    "main.07d32264.js.map": "/yachnikmikhailportfolio/static/js/main.07d32264.js.map",
     "787.43402658.chunk.js.map": "/yachnikmikhailportfolio/static/js/787.43402658.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbb0e257.css",
-    "static/js/main.89625a1d.js"
+    "static/js/main.07d32264.js"
   ]
 }
